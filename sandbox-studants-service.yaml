@@ -8,5 +8,6 @@ eureka:
     instance:
         hostname: localhost
 
-msg-error: mensagem
+msg:
+    error: mensagem
 
