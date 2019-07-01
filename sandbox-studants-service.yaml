@@ -6,7 +6,7 @@ spring:
         name: studants-service
 eureka:
     instance:
-        hostname: localhost
+        hostname: ${EUREKA_HOST}
 
 msg:
     error: mensagem final
