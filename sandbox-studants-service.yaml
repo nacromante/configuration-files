@@ -9,5 +9,5 @@ eureka:
         hostname: localhost
 
 msg:
-    error: mensagem kkk
+    error: mensagem kiko
 
