@@ -10,5 +10,5 @@ eureka:
       defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8761}/eureka
 
 msg:
-    error: mensagem final
+    error: teste de mensagem com ácento ô ão
 
