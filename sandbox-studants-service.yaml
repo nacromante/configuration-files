@@ -7,7 +7,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://${EUREKA_HOST:192.168.3.144}:${EUREKA_PORT:8761}/eureka
+      defaultZone: http://${EUREKA_HOST:192.168.3.147}:${EUREKA_PORT:8761}/eureka
 
 msg:
     error: mensagem final
