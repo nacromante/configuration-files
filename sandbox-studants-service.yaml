@@ -5,8 +5,9 @@ spring:
     application:
         name: studants-service
 eureka:
-    instance:
-        hostname: ${EUREKA_HOST}
+  client:
+    service-url:
+      defaultZone: http://${EUREKA_HOST:192.168.3.144}:${EUREKA_PORT:8761}/eureka
 
 msg:
     error: mensagem final
